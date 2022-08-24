@@ -13,10 +13,10 @@ public class Main {
         //      System.out.println(catIsAdult);
 
         // Задание №2 (6)
-            double boxer1 = 78.2;
-            double boxer2 = 82.7;
-        //    double weightOfAllBoxers = boxer1 + boxer2;
-        //    double weightDifference = boxer2 - boxer1;
+            double firstBoxer = 78.2;
+            double secondBoxer = 82.7;
+        //    double weightOfAllBoxers = firstBoxer + secondBoxer;
+        //    double weightDifference = secondBoxer - firstBoxer;
         //      System.out.println("Общий вес боксеров " + weightOfAllBoxers);
         //      System.out.println("Разница в весе боксеров " + weightDifference);
 
