@@ -12,11 +12,11 @@ public class Main {
         //    boolean catIsAdult = cat > 10;
         //      System.out.println(catIsAdult);
 
-        // Задание №2
+        // Задание №2 (6)
             double boxer1 = 78.2;
             double boxer2 = 82.7;
-            double weightOfAllBoxers = boxer1 + boxer2;
-            double weightDifference = boxer2 - boxer1;
+        //    double weightOfAllBoxers = boxer1 + boxer2;
+        //    double weightDifference = boxer2 - boxer1;
         //      System.out.println("Общий вес боксеров " + weightOfAllBoxers);
         //      System.out.println("Разница в весе боксеров " + weightDifference);
 
@@ -94,8 +94,40 @@ public class Main {
         //    System.out.println(cat);
         //    System.out.println(paper);
 
+        // Задача №9 (4)
+            var friend = 19;
+        //    System.out.println(friend);
+            friend = friend + 2;
+        //    System.out.println(friend);
+            friend = friend / 7;
+        //    System.out.println(friend);
 
+        // Задача №10 (5)
+            var frog = 3.5;
+        //    System.out.println(frog);
+        //    frog = (frog * 10) / 3.5 + 4;
+        //    System.out.println(frog);
+            frog = frog * 10;
+        //    System.out.println(frog);
+            frog = frog / 3.5;
+        //    System.out.println(frog);
+            frog = frog + 4;
+        //    System.out.println(frog);
 
+        // Задача №11 (7)
+            var fighter1 = 78.2;
+            var fighter2 = 82.7;
+            var weightDifference = fighter2 - fighter1;
+        //    System.out.println(weightDifference);
+            weightDifference = fighter2 % fighter1;
+        //    System.out.println(weightDifference);
+
+        // Задача №12 (8)
+            var time = 640;
+            var workerTime = time / 8;
+            System.out.println("Всего работников в компании " + workerTime + " человек");
+            var timeSharing = time / (workerTime + 94);
+            System.out.println("Если в компании работает 174 человека, то всего " + timeSharing + " часов работы может быть поделено между сотрудниками");
     }
 
 
