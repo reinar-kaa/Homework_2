@@ -1,15 +1,15 @@
 public class Main {
     public static void main(String[] args) {
         // Задание №1
-            byte dog = 2;
+        //    byte dog = 2;
             short monkey = 4;
-            int cat = 15;
+        //    int cat = 15;
             long shark = 4900L;
             float saltWeight = 1.4f;
             double sugarWeight = 3.3;
             char percent = 37;
         //      System.out.println(percent);
-            boolean catIsAdult = cat > 10;
+        //    boolean catIsAdult = cat > 10;
         //      System.out.println(catIsAdult);
 
         // Задание №2
@@ -26,9 +26,9 @@ public class Main {
             byte icecream = 2;
             byte egg = 4;
             float totalCalculate = (banana * 80) + (milk + 10) + (icecream * 100) + (egg * 70);
-        //        System.out.println("Общий объём спорт-завтрака равен " + totalCalculate + " грамм");
+        //       System.out.println("Общий объём спорт-завтрака равен " + totalCalculate + " грамм");
             float totalWeight = totalCalculate / 1000;
-        //        System.out.println("Общий объём такого спорт-завтрака равен " + totalWeight + " кг");
+        //       System.out.println("Общий объём такого спорт-завтрака равен " + totalWeight + " кг");
 
         // Задание №4
             byte needWeightLose = 7;
@@ -39,9 +39,9 @@ public class Main {
             int trainerCorrect_a = weightInKg / a;
             int trainerCorrect_b = weightInKg / b;
             int averageCorrectValue = weightInKg / averageValue;
-        //        System.out.println(trainerCorrect_a + " дней уйдёт на похудение, если спортсмен будет терять каждый день по 250 грамм.");
-        //        System.out.println(trainerCorrect_b + " дней уйдёт на похудение, если спортсмен будет терять каждый день по 500 грамм.");
-        //        System.out.println(averageCorrectValue + " дней может потребоваться в среднем, чтобы добиться результата похудения.");
+        //       System.out.println(trainerCorrect_a + " дней уйдёт на похудение, если спортсмен будет терять каждый день по 250 грамм.");
+        //       System.out.println(trainerCorrect_b + " дней уйдёт на похудение, если спортсмен будет терять каждый день по 500 грамм.");
+        //       System.out.println(averageCorrectValue + " дней может потребоваться в среднем, чтобы добиться результата похудения.");
 
         // Задание №5
             int Maria = 67_760;
@@ -69,9 +69,31 @@ public class Main {
             double difference1 = afterIncrease1 - annualRevenue1; // разница между годовым доходом с нынешней зарплатой и после повышения
             double difference2 = afterIncrease2 - annualRevenue2;
             double difference3 = afterIncrease3 - annualRevenue3;
-        //    System.out.println("Разница между годовым доходом Марии с нынешней зарплатой и после повышения составляет " + difference1 + " рублей");
-        //    System.out.println("Разница между годовым доходом Дениса с нынешней зарплатой и после повышения составляет " + difference2 + " рублей");
-        //    System.out.println("Разница между годовым доходом Кристины с нынешней зарплатой и после повышения составляет " + difference3 + " рублей");
+        //      System.out.println("Разница между годовым доходом Марии с нынешней зарплатой и после повышения составляет " + difference1 + " рублей");
+        //      System.out.println("Разница между годовым доходом Дениса с нынешней зарплатой и после повышения составляет " + difference2 + " рублей");
+        //      System.out.println("Разница между годовым доходом Кристины с нынешней зарплатой и после повышения составляет " + difference3 + " рублей");
+
+        // Задача №6 (1)
+            double dog = 8;
+            var cat = 3.6;
+            var paper = 763789;
+
+        // Задача №7 (2)
+        //  dog = dog +4;
+        //  cat = cat + 4;
+        //  paper = paper +4;
+        //       System.out.println(dog);
+        //       System.out.println(cat);
+        //       System.out.println(paper);
+
+        // Задача №8 (3)
+            dog = dog - 3.5;
+            cat = cat - 1.6;
+            paper = paper - 7639;
+        //    System.out.println(dog);
+        //    System.out.println(cat);
+        //    System.out.println(paper);
+
 
 
     }
